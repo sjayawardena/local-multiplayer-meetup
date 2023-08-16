@@ -15,7 +15,9 @@ A live version of the project can be found here: ++ADD LINK+
 
 ## Design
 
-++Colour, fonts etc with screen shots++
+A color scheme was picked early on using the [Color Space](https://mycolor.space/) website.
+
+![Screenshot of color scheme](assets/images/ColorPalette.png)
 
 ## Wireframes
 

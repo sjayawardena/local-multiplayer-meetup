@@ -15,5 +15,6 @@ body {
     flex-direction: column;
     
     /* Generic project styles */
-    color: #2E4748
+    color: #2E4748;
     font-family: 'Roboto Slab', serif;
+}

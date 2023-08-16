@@ -5,6 +5,27 @@ The site is targeted towards would-be in-person gamers who want to socialise and
 
 North London Multiplayer Meet-up will be useful for would-be gamers to see when and where they can attend the gaming meet-ups, the rules of the club, they types of consoles and games on offer, as well as information on how much they can expect to pay.
 
+A live version of the project can be found here: ++ADD LINK+
+
+## Contents
+
+++FILL OUT AT END!++
+
+## User Experience (UX)
+
+## Design
+
+++Colour, fonts etc with screen shots++
+
+## Wireframes
+
+Wireframes were used to work out the basic layout of each page. The wireframes were done in the style of how it will look on a desktop computer/laptop screen, but I planned to lay it out differently for tablet/mobile.
+
+![Screenshot of wireframe for home/landing page](assets/images/Project1WireFrames/Home.png)
+![Screenshot of wireframe for Where and When page](assets/images/Project1WireFrames/WhereandWhen.png)
+![Screenshot of wireframe for Rules page](assets/images/Project1WireFrames/Rules.png)
+![Screenshot of wireframe for Sign Up page](assets/images/Project1WireFrames/SignUp.png)
+
 ## Features
 
 ### Exisiting Features
@@ -38,3 +59,50 @@ North London Multiplayer Meet-up will be useful for would-be gamers to see when 
 #### Footer
 
 - The footer will have links, via icons, to social media - Facebook, Twitter, Instagram. It will appear the same on all pages of the site.
+
+### Features Left To Implement
+
+- I would like the site to have a Multiplayer Meet-up finder feature on the Where and When page. This would allow users to view an interactive map and enter their location to see options near them. This would rely on the movement growing and being available in other areas. The site's main title/branding would of course have to change then, as currently it just is aimed at 'North London'.
+
+## Testing
+
+### Validator Testing
+
+### Unfixed Bugs
+
+## Deployment
+
+The site was set up by creating a new repository on GitHub, using [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from CodeInstitute.
+
+The development environment used was GitPod. This was opened initially via the green 'GitPod' button that appeared on the repo's listing on GitHub. Then regular commits and pushes were sent from GitPod back to the repo on GitHub.
+
+To deploy the live site from the GitHub repository, these steps as outlined on Code Institute's sample README file for the Love Running project were followed:
+- In the GitHub repository, navigate to the Settings tab 
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+## Technologies Used
+
+(++Link and give details on completion++)
+
+- HTML5
+- CSS
+- GitHub
+- GitPod
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Chrome DevTools
+- Lighthouse
+- W3C Markup Validation Service
+- W3C CSS Validation Service
+
+## Credits
+
+### Content
+
+- Ideas for structuring README.md files were gained from samples provided from former students, whose GitHub names are: Pelikantapeten, AlexaH88 
+
+### Media
+
+- Images used on the wireframes were taken from the [Pexels free-to-use stock photos website](https://www.pexels.com/)

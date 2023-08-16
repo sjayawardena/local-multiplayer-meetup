@@ -18,3 +18,16 @@ body {
     color: #2E4748;
     font-family: 'Roboto Slab', serif;
 }
+
+/* Header */
+
+#logo {
+    color: #2E4748;
+    font-family: 'Black Ops One', sans-serif;  
+    letter-spacing: 3px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}

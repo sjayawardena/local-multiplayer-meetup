@@ -92,6 +92,7 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - Balsamiq
 - Google Fonts
 - Font Awesome
+- Color Space website (mycolor.space)
 - Chrome DevTools
 - Lighthouse
 - W3C Markup Validation Service

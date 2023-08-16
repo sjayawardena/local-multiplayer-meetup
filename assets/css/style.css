@@ -1,0 +1,19 @@
+/** Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default syles added by the browser. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    /* Generic project styles */
+    color: #2E4748
+    font-family: 'Roboto Slab', serif;

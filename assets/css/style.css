@@ -111,10 +111,12 @@ nav {
 }
 .page-writing {
     margin: 5px; 
+    letter-spacing: 2px;
+    font-size: 120%;
 }
 
 #page-content p {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 /* Footer */

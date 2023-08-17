@@ -46,6 +46,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -114,7 +115,7 @@ nav {
     width: 100%;
     padding: 5px;
     margin-top: 5px;
-    color:#C2C2C2 ;
+    color: #C2C2C2;
     background-color: rgba(0, 128, 132, .8);
 }
 
@@ -133,7 +134,7 @@ nav {
 
 /* Page writing*/
 .page-writing {
-    margin: 5px; 
+    margin: 5px;
     letter-spacing: 2px;
     font-size: 120%;
 }
@@ -146,6 +147,18 @@ nav {
     scrollbar-color: #008084;
     scrollbar-width: initial;
 }
+
+/* Signup Form */
+
+#full-name
+
+#email-address
+
+#date-of-birth
+
+.text-input
+
+.date-input
 
 /* Footer */
 

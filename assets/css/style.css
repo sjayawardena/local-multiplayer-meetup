@@ -46,16 +46,12 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-ul {
-    list-style-type: none;
-    text-align: center;
-    font-family: 'Black Ops One', sans-serif;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
 }
 
 #menu>li {
@@ -134,11 +130,21 @@ nav {
     object-fit: cover;
 }
 
+
 /* Page writing*/
 .page-writing {
     margin: 5px; 
     letter-spacing: 2px;
     font-size: 120%;
+}
+
+/* Rules list */
+#rules-list {
+    font-size: 80%;
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-color: #008084;
+    scrollbar-width: initial;
 }
 
 /* Footer */

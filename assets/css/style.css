@@ -23,6 +23,12 @@ body {
 
 /* Header */
 
+header {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 193, 203, .5)
+}
+
 #logo {
     color: #2E4748;
     font-family: 'Black Ops One', sans-serif;

@@ -14,9 +14,8 @@ body {
     display: flex;
     flex-direction: column;
 
-
     /* Generic project styles */
-    background-color: #C2C2C2;
+    background-color: #ffffff;
     color: #2E4748;
     font-family: 'Roboto Slab', serif;
 }
@@ -25,10 +24,10 @@ body {
 
 header {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: rgba(0, 193, 203, .5);
     align-self: center;
-    margin: 10px;   
+    margin: 10px;
 }
 
 /* Logo */
@@ -37,7 +36,7 @@ header {
     font-family: 'Black Ops One', sans-serif;
     letter-spacing: 3px;
     text-align: center;
-    margin: 10px; 
+    margin: 10px;
     min-width: 0;
 
 }
@@ -96,6 +95,26 @@ nav {
     letter-spacing: 2px;
     text-align: center;
     min-width: 0;
+}
+
+/* Main section */
+
+#page-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+}
+
+.page-photo {
+    height: 100%;
+    width: 100%;
+}
+.page-writing {
+    margin: 5px; 
+}
+
+#page-content p {
+    margin-bottom: 5px;
 }
 
 /* Footer */

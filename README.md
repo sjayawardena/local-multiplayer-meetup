@@ -96,6 +96,7 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - Font Awesome
 - Color Space website (mycolor.space)
 - Chrome DevTools
+- rgba color picker website
 - Lighthouse
 - W3C Markup Validation Service
 - W3C CSS Validation Service

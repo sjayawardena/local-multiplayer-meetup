@@ -97,6 +97,7 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - Color Space website (mycolor.space)
 - Chrome DevTools
 - rgba color picker website
+- maps.ie - Google Maps iframe generator
 - Lighthouse
 - W3C Markup Validation Service
 - W3C CSS Validation Service

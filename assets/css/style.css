@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+
 
     /* Generic project styles */
     background-color: #C2C2C2;
@@ -25,21 +25,24 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
+    flex-direction: column; 
     background-color: rgba(0, 193, 203, .5);
-    align-items: center;
-    border-radius: 10% 10%;
+    align-self: center;
+    margin: 10px;   
 }
 
+/* Logo */
 #logo {
     color: #2E4748;
     font-family: 'Black Ops One', sans-serif;
     letter-spacing: 3px;
     text-align: center;
+    margin: 10px; 
+    min-width: 0;
+
 }
 
+/* Nav bar and collapsable menu styles */
 header a {
     text-decoration: none;
     color: inherit;
@@ -66,7 +69,6 @@ ul {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    border-radius: 10% 10%;
     background-color: #C2C2C2;
     width: 85%;
     left: 0;
@@ -74,6 +76,7 @@ nav {
     box-shadow: 0 2px 2px #008084;
     display: none;
     top: 100%;
+    align-self: center;
 }
 
 /* Nav toggle */
@@ -86,21 +89,28 @@ nav {
 }
 
 .nav-toggle-label {
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Black Ops One', sans-serif;
     font-size: 120%;
     letter-spacing: 2px;
     text-align: center;
+    min-width: 0;
 }
 
 /* Footer */
 
 footer {
     margin-top: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 193, 203, .5);
 }
 
 #social-media {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-shrink: 5;
 }

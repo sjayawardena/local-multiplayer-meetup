@@ -25,20 +25,72 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     padding: 10px;
-    background-color: rgba(0, 193, 203, .5)
+    margin: 10px;
+    background-color: rgba(0, 193, 203, .5);
+    align-items: center;
+    border-radius: 10% 10%;
 }
 
 #logo {
     color: #2E4748;
     font-family: 'Black Ops One', sans-serif;
     letter-spacing: 3px;
-    text-align: left;
+    text-align: center;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu>li {
+    margin-bottom: 4px;
+}
+
+.active {
+    border-bottom: 1px solid #008084;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    border-radius: 10% 10%;
+    background-color: #C2C2C2;
+    width: 85%;
+    left: 0;
+    padding: 10px 5px;
+    box-shadow: 0 2px 2px #008084;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    margin-top: 15px;
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 /* Footer */

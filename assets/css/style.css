@@ -13,7 +13,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
+
     /* Generic project styles */
     background-color: #C2C2C2;
     color: #2E4748;
@@ -24,11 +25,23 @@ body {
 
 #logo {
     color: #2E4748;
-    font-family: 'Black Ops One', sans-serif;  
+    font-family: 'Black Ops One', sans-serif;
     letter-spacing: 3px;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

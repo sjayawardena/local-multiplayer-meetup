@@ -97,7 +97,7 @@ nav {
     min-width: 0;
 }
 
-/* Main section */
+/* Main section rules */
 
 #page-content {
     display: flex;
@@ -105,19 +105,39 @@ nav {
     padding: 0px 10px 10px 10px;
 }
 
+#page-content p {
+    margin-bottom: 8px;
+}
+
+/* Page title banners */
+#banner {
+    display: flex;
+    justify-content: center;
+    font-family: 'Black Ops One', sans-serif;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    color:#C2C2C2 ;
+    background-color: rgba(0, 128, 132, .8);
+}
+
+#page-content h2 {
+    text-shadow: 0 2px 2px #2E4748;
+    align-self: center;
+}
+
+/* Page photo */
 .page-photo {
     height: 350px;
     width: 100%;
     object-fit: cover;
 }
+
+/* Page writing*/
 .page-writing {
     margin: 5px; 
     letter-spacing: 2px;
     font-size: 120%;
-}
-
-#page-content p {
-    margin-bottom: 8px;
 }
 
 /* Footer */

@@ -148,6 +148,31 @@ nav {
     scrollbar-width: initial;
 }
 
+#sign-up form {
+    display: flex;
+
+}
+.text-input {
+    min-width: 100%;
+    margin-bottom: 5px;
+}
+
+.date-input {
+    min-width: 100%; 
+    margin-bottom: 5px;
+}
+
+.join-button {
+    margin-top: 10px;
+    width: 120px;
+    height:  50px;
+    font-size: 80%;
+    background-color: rgba(0, 128, 132, .8);
+    color:#C2C2C2;
+    text-shadow: 0 2px 2px #2E4748;
+    font-family: 'Black Ops One', sans-serif;
+}
+
 /* Signup Form 
 
 #full-name

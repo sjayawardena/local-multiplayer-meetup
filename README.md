@@ -15,9 +15,28 @@ A live version of the project can be found here: ++ADD LINK+
 
 ## Design
 
+### Colour Scheme
+
 A color scheme was picked early on using the [Color Space](https://mycolor.space/) website.
 
 ![Screenshot of color scheme](assets/images/ColorPalette.png)
+
+Initially I was going to use the grey (#C2C2C2) for the background of the site but decided that made it look dated, so I used all these colours in combination for all the site's other elements.
+
+I picked these colours because them to result in a clean, welcoming feel to the site. 
+
+The photos chosen for each page were deemed to fit well within this colour scheme.
+
+### Fonts
+
+The two Google Fonts used for the site are Black Ops One, and Roboto Slab.
+
+Black Ops One is used on menus, banners and buttons to convey an oldschoool computer game feel.
+
+Roboto Slab is used for all other general text, with a slightly increased letter spacing to default, because it has an informal look to it.
+
+![Screenshot of Black Ops One font](assets/images/FontBlackOpsOne.png) ![Screenshot of Roboto Slab font](assets/images/FontRobotoSlab.png)
+
 
 ## Wireframes
 
@@ -66,13 +85,9 @@ Wireframes were used to work out the basic layout of each page. The wireframes w
 
 - I would like the site to have a Multiplayer Meet-up finder feature on the Where and When page. This would allow users to view an interactive map and enter their location to see options near them. This would rely on the movement growing and being available in other areas. The site's main title/branding would of course have to change then, as currently it just is aimed at 'North London'.
 
-## Testing
+## Deployment and Development
 
-### Validator Testing
-
-### Unfixed Bugs
-
-## Deployment
+### Deployment
 
 The site was set up by creating a new repository on GitHub, using [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from CodeInstitute.
 
@@ -82,6 +97,18 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - In the GitHub repository, navigate to the Settings tab 
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+### Development
+
+First the site was coded as a mobile site. 
+
+A flex is set for the main content area of each page, and all elements styled and sized within that.
+
+Problems encountered in this phase included the main h1 heading overflowing it's flexbox container, which was fixed by setting the min-width property to 0, and aligning the header individually to centre.
+
+
+
+
 
 ## Technologies Used
 
@@ -101,6 +128,14 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - Lighthouse
 - W3C Markup Validation Service
 - W3C CSS Validation Service
+
+## Testing
+
+### Validator Testing
+
+### Unfixed Bugs
+
+I was also unable to align the join button to the right of the screen. I can't figure out why.
 
 ## Credits
 

@@ -194,17 +194,18 @@ footer {
 }
 
 
-/* Media query: tablets and larger (768px and up) */
+/* MEDIA QUERY: TABLETS AND LARGER (768PX AND UP) */
 @media screen and (min-width: 768px) {
 
-    /* header */
-    
-    header {
-    height: 10vh;
-    margin-bottom: 10px;
-}
+    /* Header */
 
-/* Navbar styles with dropdown toggle */
+    header {
+        height: 10vh;
+        margin-bottom: 10px;
+    }
+
+    /* Navbar styles */
+
 nav {
     z-index: 90;
 }
@@ -229,7 +230,7 @@ nav {
         font-family: 'Black Ops One', sans-serif;
         width: 100%;
         flex-grow: 1;
-        padding: 10px; 
+        padding: 10px;
         margin-top: 10px;
         color: #C2C2C2;
         background-color: rgba(0, 128, 132, .8);
@@ -252,32 +253,58 @@ nav {
     }
 
     /* Footer */
-     footer   {
+    footer {
         justify-content: center;
         height: 65px;
     }
 
     #social-media {
         font-size: 160%;
-        
+
     }
 
 }
 
-/* Media query: horizontal tablets (1024px and up) */
+/* MEDIA QUERY: HORIZONTAL TABLETS (1024PX AND UP) */
 @media screen and (min-width: 1024px) {
 
-        /* header */
+    /* General styles */
+
+    body {
+        height: 100vh;
+    }
+
+    /* Header */
     header {
         height: 13vh;
         margin-bottom: 10px;
     }
 
-    * Page writing*/
-    .page-writing {
-        padding-top: 20px;
-        font-size: 80%;
+
+    /* Main section */
+
+    /* Page photo */
+
+    .page-photo {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #page-photo-container {
+        flex-grow: 2;
         overflow: hidden;
+    }
+
+    /* Page writing*/
+    .page-writing {
+        padding-top: 5px;
+        font-size: 150%;
+    }
+
+    /* Footer */
+
+    footer: {
+        margin-bottom: 10px;
     }
 
 }

@@ -273,10 +273,11 @@ nav {
         margin-bottom: 10px;
     }
 
-/* Page writing*/
-.page-writing {
-    padding-top: 5px;
-    font-size: 140%;
-}
+    * Page writing*/
+    .page-writing {
+        padding-top: 20px;
+        font-size: 80%;
+        overflow: hidden;
+    }
 
 }

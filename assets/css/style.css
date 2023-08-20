@@ -25,7 +25,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 193, 203, .5);
+    background-color: rgba(0, 193, 203, .7);
     margin: 10px;
 }
 
@@ -184,7 +184,7 @@ footer {
     margin-bottom: 10px;
     margin-left: 10px;
     padding: 5px;
-    background-color: rgba(0, 193, 203, .5);
+    background-color: rgba(0, 193, 203, .7);
 }
 
 #social-media {
@@ -202,13 +202,33 @@ footer {
     header {
         height: 10vh;
         margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     /* Navbar styles */
 
-nav {
-    z-index: 90;
-}
+    nav {
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        background-color: rgba(0, 193, 203, .0);
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #nav-toggle {
+        display:  none;
+    }
+
+    #menu {
+        display: flex;
+        width: 80vw;
+        font-size: 120%;
+        justify-content: space-evenly;
+    }
 
     /* Page content */
     #page-content {
@@ -303,7 +323,7 @@ nav {
 
     /* Footer */
 
-    footer: {
+    footer {
         margin-bottom: 10px;
     }
 

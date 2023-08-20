@@ -152,23 +152,24 @@ nav {
     flex-direction: column;
 
 }
+
 .text-input {
     min-width: 100%;
     margin-bottom: 5px;
 }
 
 .date-input {
-    min-width: 100%; 
+    min-width: 100%;
     margin-bottom: 5px;
 }
 
 .join-button {
     margin-top: 10px;
     width: 120px;
-    height:  50px;
+    height: 50px;
     font-size: 80%;
     background-color: rgba(0, 128, 132, .8);
-    color:#C2C2C2;
+    color: #C2C2C2;
     text-shadow: 0 2px 2px #2E4748;
     font-family: 'Black Ops One', sans-serif;
 }
@@ -190,4 +191,92 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* header */
+    
+    header {
+    height: 10vh;
+    margin-bottom: 10px;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    z-index: 90;
+}
+
+    /* Page content */
+    #page-content {
+        height: 80vh;
+    }
+
+    /* Page photo */
+    #page-photo-container {
+        flex-grow: 2;
+        overflow: hidden;
+    }
+
+    .page-photo {
+        height: 100%;
+    }
+
+    /* Page title banners */
+    #banner {
+        font-family: 'Black Ops One', sans-serif;
+        width: 100%;
+        flex-grow: 1;
+        padding: 10px; 
+        margin-top: 10px;
+        color: #C2C2C2;
+        background-color: rgba(0, 128, 132, .8);
+    }
+
+    #page-content h2 {
+        text-align: center;
+        text-shadow: 0 2px 2px #2E4748;
+        font-size: 260%;
+    }
+
+    /* Page writing*/
+    .page-writing {
+        margin: 5px;
+        letter-spacing: 2px;
+        font-size: 120%;
+        padding-top: 20px;
+        font-size: 160%;
+        align-self: baseline;
+    }
+
+    /* Footer */
+     footer   {
+        justify-content: center;
+        height: 65px;
+    }
+
+    #social-media {
+        font-size: 160%;
+        
+    }
+
+}
+
+/* Media query: horizontal tablets (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+        /* header */
+    header {
+        height: 13vh;
+        margin-bottom: 10px;
+    }
+
+/* Page writing*/
+.page-writing {
+    padding-top: 5px;
+    font-size: 140%;
+}
+
 }

@@ -27,6 +27,8 @@ header {
     flex-direction: column;
     background-color: rgba(0, 193, 203, .7);
     margin: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Logo */
@@ -203,7 +205,6 @@ footer {
         margin-bottom: 10px;
         display: flex;
         justify-content: space-evenly;
-        padding: 15px;
     }
 
     /* Navbar styles */
@@ -213,6 +214,11 @@ footer {
         box-shadow: none;
         width: fit-content;
         background-color: rgba(0, 193, 203, .0);
+        padding: 5px 5px;
+    }
+
+    #logo {
+        margin-top: 20px;
     }
 
     .nav-toggle-label {
@@ -228,6 +234,7 @@ footer {
         width: 80vw;
         font-size: 120%;
         justify-content: space-evenly;
+        margin-bottom: 20px;
     }
 
     /* Page content */
@@ -250,16 +257,19 @@ footer {
         width: 100vw;
     }
 
-
     /* Page title banners */
     #banner {
         font-family: 'Black Ops One', sans-serif;
         width: 100%;
-        flex-grow: 1;
+        height: 7vh;
         padding: 10px;
         margin-top: 10px;
         color: #C2C2C2;
         background-color: rgba(0, 128, 132, .8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 
     #page-content h2 {
@@ -275,13 +285,37 @@ footer {
         font-size: 120%;
         padding-top: 0px;
         font-size: 160%;
-
     }
 
     /* Rules list */
     #rules-list {
         font-size: 140%;
+        height: 32vh;
     }
+
+    /* Signup Form */
+
+    .text-input {
+        min-width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .date-input {
+        min-width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .join-button {
+        margin-top: 10px;
+        width: 120px;
+        height: 50px;
+        font-size: 80%;
+        background-color: rgba(0, 128, 132, .8);
+        color: #C2C2C2;
+        text-shadow: 0 2px 2px #2E4748;
+        font-family: 'Black Ops One', sans-serif;
+    }
+
 
     /* Footer */
     footer {
@@ -303,7 +337,7 @@ footer {
     /* General styles */
 
     body {
-        height: 100%;
+        max-height: 100%;
     }
 
     /* Header */
@@ -311,6 +345,7 @@ footer {
         height: 13vh;
         margin-bottom: 10px;
     }
+
 
     /* Main section */
 
@@ -323,6 +358,7 @@ footer {
     /* Rules list */
     #rules-list {
         font-size: 120%;
+        height: 45vh;
     }
 
     .page-photo {

@@ -25,7 +25,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 193, 203, .5);
+    background-color: rgba(0, 193, 203, .7);
     margin: 10px;
 }
 
@@ -184,7 +184,7 @@ footer {
     margin-bottom: 10px;
     margin-left: 10px;
     padding: 5px;
-    background-color: rgba(0, 193, 203, .5);
+    background-color: rgba(0, 193, 203, .7);
 }
 
 #social-media {
@@ -200,15 +200,35 @@ footer {
     /* Header */
 
     header {
-        height: 10vh;
         margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+
     }
 
     /* Navbar styles */
 
-nav {
-    z-index: 90;
-}
+    nav {
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        background-color: rgba(0, 193, 203, .0);
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        width: 80vw;
+        font-size: 120%;
+        justify-content: space-evenly;
+    }
 
     /* Page content */
     #page-content {
@@ -218,12 +238,19 @@ nav {
     /* Page photo */
     #page-photo-container {
         flex-grow: 2;
+        justify-content: center;
         overflow: hidden;
     }
 
     .page-photo {
         height: 100%;
     }
+
+    iframe {
+        align-self:  center;
+        width: 100vw;
+    }
+
 
     /* Page title banners */
     #banner {
@@ -247,15 +274,21 @@ nav {
         margin: 5px;
         letter-spacing: 2px;
         font-size: 120%;
-        padding-top: 20px;
+        padding-top: 0px;
         font-size: 160%;
-        align-self: baseline;
+
+    }
+
+    /* Rules list */
+    #rules-list {
+        font-size: 140%;
     }
 
     /* Footer */
     footer {
         justify-content: center;
         height: 65px;
+
     }
 
     #social-media {
@@ -271,7 +304,7 @@ nav {
     /* General styles */
 
     body {
-        height: 100vh;
+        height: 100%;
     }
 
     /* Header */
@@ -280,30 +313,26 @@ nav {
         margin-bottom: 10px;
     }
 
-
     /* Main section */
-
-    /* Page photo */
-
-    .page-photo {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #page-photo-container {
-        flex-grow: 2;
-        overflow: hidden;
-    }
 
     /* Page writing*/
     .page-writing {
         padding-top: 5px;
-        font-size: 150%;
+        font-size: 130%;
+    }
+
+    /* Rules list */
+    #rules-list {
+        font-size: 120%;
+    }
+
+    .page-photo {
+        height: 100%;
     }
 
     /* Footer */
 
-    footer: {
+    footer {
         margin-bottom: 10px;
     }
 

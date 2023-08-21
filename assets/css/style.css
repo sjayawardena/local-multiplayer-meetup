@@ -199,6 +199,10 @@ footer {
 /* MEDIA QUERY: TABLETS AND LARGER (768PX AND UP) */
 @media screen and (min-width: 768px) {
 
+    body {
+        max-height: 100vh;
+    }
+
     /* Header */
 
     header {
@@ -257,6 +261,12 @@ footer {
         width: 100vw;
     }
 
+    .signup-page-photo-container {
+        flex-shrink: 1;
+    }
+
+    #signup-page-photo
+
     /* Page title banners */
     #banner {
         font-family: 'Black Ops One', sans-serif;
@@ -295,21 +305,40 @@ footer {
 
     /* Signup Form */
 
+    #signup-form-container {
+        max-height: 55%;
+    }
+
+    #signup-form {
+        height: 100%;
+        font-size: 120%;
+    }
+
     .text-input {
         min-width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 12px;
+        height: 5vh;
+        font-size: 100%;
+
+    }
+
+    #signup-form h3 {
+        margin-bottom: 10px;
     }
 
     .date-input {
         min-width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 12px;
+        height: 5vh;
+        font-size: 100%;
     }
 
     .join-button {
-        margin-top: 10px;
-        width: 120px;
-        height: 50px;
-        font-size: 80%;
+        margin-left: 23vw;
+        margin-top: 7.5px;
+        width: 50vw;
+        height: 7vh;
+        font-size: 120%;
         background-color: rgba(0, 128, 132, .8);
         color: #C2C2C2;
         text-shadow: 0 2px 2px #2E4748;

@@ -201,34 +201,13 @@ footer {
 
     header {
         margin-bottom: 10px;
-        display: flex;
-        justify-content: space-evenly;
-
     }
 
     /* Navbar styles */
 
-    nav {
-        display: block;
-        box-shadow: none;
-        width: fit-content;
-        background-color: rgba(0, 193, 203, .0);
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
-
-    #menu {
-        display: flex;
-        width: 80vw;
-        font-size: 120%;
-        justify-content: space-evenly;
-    }
+nav {
+    z-index: 90;
+}
 
     /* Page content */
     #page-content {

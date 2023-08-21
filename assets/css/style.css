@@ -223,6 +223,7 @@ footer {
 
     #logo {
         margin-top: 20px;
+
     }
 
     .nav-toggle-label {
@@ -239,11 +240,13 @@ footer {
         font-size: 120%;
         justify-content: space-evenly;
         margin-bottom: 20px;
+
     }
 
     /* Page content */
     #page-content {
         height: 80vh;
+
     }
 
     /* Page photo */
@@ -259,11 +262,11 @@ footer {
 
     iframe {
         width: 100vw;
+
     }
 
-    .signup-page-photo-container {
-        flex-shrink: 1;
-    }
+    .signup-page-photo-container 
+
 
     #signup-page-photo
 
@@ -280,6 +283,7 @@ footer {
         align-items: center;
         justify-content: center;
 
+
     }
 
     #page-content h2 {
@@ -295,18 +299,20 @@ footer {
         font-size: 120%;
         padding-top: 0px;
         font-size: 160%;
+        
     }
 
     /* Rules list */
     #rules-list {
         font-size: 140%;
         height: 32vh;
+        flex-shrink: 1;
     }
 
     /* Signup Form */
 
     #signup-form-container {
-        max-height: 55%;
+        max-height: 60%;
     }
 
     #signup-form {
@@ -392,6 +398,12 @@ footer {
 
     .page-photo {
         height: 100%;
+    }
+
+    /*sign up form*/
+    #signup-form {
+        height: 100%;
+        font-size: 100%;
     }
 
     /* Footer */

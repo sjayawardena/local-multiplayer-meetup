@@ -201,13 +201,34 @@ footer {
 
     header {
         margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
     }
 
     /* Navbar styles */
 
-nav {
-    z-index: 90;
-}
+    nav {
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        background-color: rgba(0, 193, 203, .0);
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        width: 80vw;
+        font-size: 120%;
+        justify-content: space-evenly;
+    }
 
     /* Page content */
     #page-content {
@@ -226,7 +247,6 @@ nav {
     }
 
     iframe {
-        align-self:  center;
         width: 100vw;
     }
 

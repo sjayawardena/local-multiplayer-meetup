@@ -21,7 +21,6 @@ body {
 }
 
 /* Header */
-
 header {
     display: flex;
     flex-direction: column;
@@ -101,7 +100,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     padding: 0px 10px 10px 10px;
-    margin-bottom: 10px;
     overflow: scroll;
 }
 
@@ -148,7 +146,6 @@ nav {
 }
 
 /* Signup Form */
-
 #sign-up form {
     display: flex;
     flex-direction: column;
@@ -166,6 +163,7 @@ nav {
 
 .join-button {
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 120px;
     height: 50px;
     font-size: 80%;
@@ -198,7 +196,6 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
-
     header {
         margin-bottom: 10px;
         padding-top: 5px;
@@ -207,7 +204,6 @@ footer {
     }
 
     /* Navbar styles */
-
     nav {
         display: block;
         box-shadow: none;
@@ -254,6 +250,7 @@ footer {
         height: 100%;
     }
 
+    /* iframe map */
     iframe {
         width: 100vw;
     }
@@ -295,7 +292,6 @@ footer {
     }
 
     /* Signup Form */
-
     #signup-form-container {
         display: flex;
         flex-direction: row;
@@ -329,7 +325,6 @@ footer {
 
     .join-button {
         margin-top: 7.5px;
-        margin-left: 10vw;
         width: 50vw;
         height: 7vh;
         font-size: 120%;
@@ -337,7 +332,8 @@ footer {
         color: #C2C2C2;
         text-shadow: 0 2px 2px #2E4748;
         font-family: 'Black Ops One', sans-serif;
-        
+        margin-left: 10vw;
+
     }
 
     /* Footer */
@@ -352,8 +348,8 @@ footer {
 
 }
 
-/* MEDIA QUERY: HORIZONTAL TABLETS (1024PX AND UP) */
-@media screen and (min-width: 1024px) {
+/* MEDIA QUERY: HORIZONTAL TABLETS (990PX AND UP) */
+@media screen and (min-width: 990px) {
 
     /* Header */
     header {
@@ -379,7 +375,7 @@ footer {
         height: 100%;
     }
 
-    /*sign up form*/
+    /* Sign up form */
     #signup-form {
         height: 100%;
         font-size: 100%;
@@ -391,4 +387,50 @@ footer {
         margin-bottom: 10px;
     }
 
+}
+
+/* LARGE DEVICES (LAPTOPS AND DESKTOPS, 1100PX AND UP) */
+@media screen and (min-width: 1100px) {
+
+    /* Header */
+    header {
+        height: 15vh;
+        padding-top: 15x;
+    }
+
+    /* Page content */
+    .page-photo-container {
+        height: 30vh;
+    }
+
+    /* Page writing */
+    .page-writing {
+        column-count: 2;
+        column-gap: 50px;
+        text-align: justify;
+    }
+
+    /* Rules list */
+    #rules-list {
+        column-count: 1;
+        list-style-type: none;
+        flex-shrink: 0.5;
+        width: 70vw;
+        margin-left: 15vw;
+        overflow: scroll; 
+    }
+
+    /* Sign up form */
+    #signup-form-container {
+        max-height: 40%;
+    }
+
+    #signup-form {
+        width: 800px;
+    }
+
+    .join-button {
+        margin-left: 0;
+        width: 800px;
+    }
 }

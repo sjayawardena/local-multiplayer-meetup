@@ -39,7 +39,6 @@ header {
     text-align: center;
     margin: 10px;
     min-width: 0;
-
 }
 
 /* Nav bar and collapsable menu styles */
@@ -102,6 +101,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     padding: 0px 10px 10px 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
 }
 
 #page-content p {
@@ -130,7 +131,6 @@ nav {
     object-fit: cover;
 }
 
-
 /* Page writing*/
 .page-writing {
     margin: 5px;
@@ -152,7 +152,6 @@ nav {
 #sign-up form {
     display: flex;
     flex-direction: column;
-
 }
 
 .text-input {
@@ -195,13 +194,8 @@ footer {
     justify-content: space-evenly;
 }
 
-
 /* MEDIA QUERY: TABLETS AND LARGER (768PX AND UP) */
 @media screen and (min-width: 768px) {
-
-    body {
-        max-height: 100vh;
-    }
 
     /* Header */
 
@@ -224,7 +218,6 @@ footer {
 
     #logo {
         margin-top: 20px;
-
     }
 
     .nav-toggle-label {
@@ -263,13 +256,7 @@ footer {
 
     iframe {
         width: 100vw;
-
     }
-
-    .signup-page-photo-container 
-
-
-    #signup-page-photo
 
     /* Page title banners */
     #banner {
@@ -283,8 +270,6 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-
-
     }
 
     #page-content h2 {
@@ -300,7 +285,6 @@ footer {
         font-size: 120%;
         padding-top: 0px;
         font-size: 160%;
-        
     }
 
     /* Rules list */
@@ -326,7 +310,6 @@ footer {
         margin-bottom: 12px;
         height: 5vh;
         font-size: 100%;
-
     }
 
     #signup-form h3 {
@@ -352,17 +335,14 @@ footer {
         font-family: 'Black Ops One', sans-serif;
     }
 
-
     /* Footer */
     footer {
         justify-content: center;
         height: 65px;
-
     }
 
     #social-media {
         font-size: 160%;
-
     }
 
 }
@@ -370,18 +350,11 @@ footer {
 /* MEDIA QUERY: HORIZONTAL TABLETS (1024PX AND UP) */
 @media screen and (min-width: 1024px) {
 
-    /* General styles */
-
-    body {
-        max-height: 100%;
-    }
-
     /* Header */
     header {
         height: 13vh;
         margin-bottom: 10px;
     }
-
 
     /* Main section */
 

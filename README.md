@@ -19,7 +19,7 @@ A live version of the project can be found here: ++ADD LINK+
 
 A color scheme was picked early on using the [Color Space](https://mycolor.space/) website.
 
-![Screenshot of color scheme](assets/images/ColorPalette.png)
+![Screenshot of color scheme](assets/images/color-palette.png)
 
 Initially I was going to use the grey (#C2C2C2) for the background of the site but decided that made it look dated, so I used all these colours in combination for all the site's other elements.
 
@@ -35,17 +35,19 @@ Black Ops One is used on menus, banners and buttons to convey an oldschoool comp
 
 Roboto Slab is used for all other general text, with a slightly increased letter spacing to default, because it has an informal look to it.
 
-![Screenshot of Black Ops One font](assets/images/FontBlackOpsOne.png) ![Screenshot of Roboto Slab font](assets/images/FontRobotoSlab.png)
+![Screenshot of Black Ops One font](assets/images/font-black-ops-one.png) ![Screenshot of Roboto Slab font](assets/images/font-roboto-slab.png)
 
 
 ## Wireframes
 
 Wireframes were used to work out the basic layout of each page. The wireframes were done in the style of how it will look on a desktop computer/laptop screen, but I planned to lay it out differently for tablet/mobile.
 
-![Screenshot of wireframe for home/landing page](assets/images/Project1WireFrames/Home.png)
-![Screenshot of wireframe for Where and When page](assets/images/Project1WireFrames/WhereandWhen.png)
-![Screenshot of wireframe for Rules page](assets/images/Project1WireFrames/Rules.png)
-![Screenshot of wireframe for Sign Up page](assets/images/Project1WireFrames/SignUp.png)
+In the end I changed the layout on desktop from how it was set out in the below wireframes because the layout generally scaled up OK from mobile/tablet, but just needed columns adding for text on the 'Home' and 'Where and When pages', or the text/form fields narrowed and centered on the 'Rules' and 'Sign Up' pages.
+
+![Screenshot of wireframe for home/landing page](assets/images/project1wire-frames/home.png)
+![Screenshot of wireframe for Where and When page](assets/images/project1wire-frames/where-and-when.png)
+![Screenshot of wireframe for Rules page](assets/images/project1wire-frames/rules.png)
+![Screenshot of wireframe for Sign Up page](assets/images/project1wire-frames/sign-up.png)
 
 ## Features
 

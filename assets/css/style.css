@@ -141,7 +141,6 @@ nav {
     font-size: 80%;
     height: 50vh;
     overflow-y: scroll;
-    scrollbar-color: #008084;
     scrollbar-width: initial;
 }
 
@@ -333,7 +332,6 @@ footer {
         text-shadow: 0 2px 2px #2E4748;
         font-family: 'Black Ops One', sans-serif;
         margin-left: 10vw;
-
     }
 
     /* Footer */
@@ -345,7 +343,6 @@ footer {
     #social-media {
         font-size: 160%;
     }
-
 }
 
 /* MEDIA QUERY: HORIZONTAL TABLETS (990PX AND UP) */
@@ -386,7 +383,6 @@ footer {
     footer {
         margin-bottom: 10px;
     }
-
 }
 
 /* LARGE DEVICES (LAPTOPS AND DESKTOPS, 1100PX AND UP) */
@@ -395,7 +391,7 @@ footer {
     /* Header */
     header {
         height: 15vh;
-        padding-top: 15x;
+        padding-top: 10px;
     }
 
     /* Page content */

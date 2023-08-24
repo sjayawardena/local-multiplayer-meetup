@@ -21,19 +21,19 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header aria-labelledby="logo">
         <a href="index.html">
             <h1 id="logo">North London Multiplayer Meetup</h1>
         </a>
         <!-- Dropdown menu -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-gamepad"></i>Menu</label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-gamepad" aria-label="Navigation menu"></i>Menu</label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="whereandwhen.html">Where and When</a></li>
-                <li><a href="rules.html">Rules</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="index.html" aria-label="Home page">Home</a></li>
+                <li><a href="whereandwhen.html" aria-label="Where and When page">Where and When</a></li>
+                <li><a href="rules.html" aria-label="Rules page">Rules</a></li>
+                <li><a href="signup.html" aria-label="Sign up page" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -48,33 +48,33 @@
                     alt="two Super Nintendo controllers on a surface">
             </div>
             <!-- Text banner -->
-            <div id="banner">
+            div id="banner" aria-label="Banner with title Sign Up">
                 <h2>
                     Sign Up
                 </h2>
             </div>
             <!-- Sign up form -->
             <div class="page-writing" id="signup-form-container">
-                <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <form id="signup-form" method="post" action="https://formdump.codeinstitute.net" aria-label="Sign up form">
                     <h3>Ready to game with us? Sign up here!</h3>
                     <!-- Name field -->
                     <label for="full-name">Full Name:</label>
                     <br>
-                    <input type="text" id="full-name" name="full-name" class="text-input" required>
+                    <input type="text" id="full-name" name="full-name" class="text-input" aria-label="Full name form field" required>
                     <br>
                     <!-- Email address field-->
                     <label for="email-address">Email Address:</label>
                     <br>
-                    <input type="email" id="email-address" name="email-address" class="text-input" required>
+                    <input type="email" id="email-address" name="email-address" class="text-input" aria-label="Email address form field"required>
                     <br>
                     <!-- Date of birth field-->
                     <label for="date-of-birth">Date of Birth:</label>
                     <br>
-                    <input type="date" id="date-of-birth" name="date-of-birth" class="date-input" required>
+                    <input type="date" id="date-of-birth" name="date-of-birth" class="date-input" aria-label="Date of birth form field" required>
                     <br>
                     <!-- Submit button-->
                     <Label for="join-button"></Label>
-                    <input type="submit" class="join-button" value="Let's Game!">
+                    <input type="submit" class="join-button" value="Let's Game!" aria-label-"Submit button of form">
                 </form>
             </div>
         </section>
@@ -82,7 +82,7 @@
 
     <!-- Footer -->
     <footer>
-        <section id="social-media">
+        <section id="social-media" aria-label="Page footer with social media links">
             <div><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Find us on Facebook (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
             </div>

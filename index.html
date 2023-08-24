@@ -21,19 +21,19 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header aria-labelledby="logo">
         <a href="index.html">
             <h1 id="logo">North London Multiplayer Meetup</h1>
         </a>
         <!-- Dropdown menu -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-gamepad"></i>Menu</label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-gamepad" aria-label="Navigation menu"></i>Menu</label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="whereandwhen.html">Where and When</a></li>
-                <li><a href="rules.html">Rules</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="index.html" aria-label="Home page" class="active">Home</a></li>
+                <li><a href="whereandwhen.html" aria-label="Where and When page">Where and When</a></li>
+                <li><a href="rules.html" aria-label="Rules page">Rules</a></li>
+                <li><a href="signup.html" aria-label="Sign up page">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -48,7 +48,7 @@
                     alt="two gaming controllers being held in 2 people's hands, television with football game on it in background">
             </div>
             <!-- Text banner -->
-            <div id="banner">
+            <div id="banner" aria-label="Banner with title Welcome">
                 <h2>
                     Welcome!
                 </h2>
@@ -79,7 +79,7 @@
 
     <!-- Footer -->
     <footer>
-        <section id="social-media">
+        <section id="social-media" aria-label="Page footer with social media links">
             <div><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Find us on Facebook (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
             </div>

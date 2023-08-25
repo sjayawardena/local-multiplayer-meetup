@@ -139,7 +139,7 @@ nav {
 
 /* Rules list */
 #rules-list {
-    font-size: 80%;
+    font-size: 120%;
     height: 50vh;
     overflow: scroll;
     display: flex;
@@ -288,7 +288,7 @@ footer {
 
     /* Rules list */
     #rules-list {
-        font-size: 140%;
+        font-size: 160%;
         height: 32vh;
         flex-shrink: 1;
     }
@@ -367,7 +367,7 @@ footer {
 
     /* Rules list */
     #rules-list {
-        font-size: 120%;
+        font-size: 130%;
         height: 45vh;
     }
 

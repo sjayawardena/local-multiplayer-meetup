@@ -2,11 +2,11 @@
 
 ![Screenshot from ui.dev/ am I responsive?](assets/images/validation-etc/project-1-responsive-screenshots.png)
 
-Welcome! North London Multiplayer Meet-up is a site that gives gamers of all ages, skill and interest level all the information they need to attend a regular multi-player video games meet-up - giving them the opportunity to socialise as they play local multiplayer games across a range of different consoles. The idea is that it is more like how multiplayer gaming used to be - in-person! Rather than over the internet.
+Welcome! North London Multiplayer Meetup is a site that gives gamers of all ages, skill and interest level all the information they need to attend a regular multiplayer video games meetup - giving them the opportunity to socialise as they play local multiplayer games across a range of different consoles. The idea is that it is more like how multiplayer gaming used to be - in-person! Rather than over the internet.
 
 The site is targeted towards would-be in-person gamers who want to socialise and make friends through their interest. It will make clear the meetup is for everyone.
 
-North London Multiplayer Meet-up will be useful for would-be gamers to see when and where they can attend the gaming meet-ups, the rules of the club, they types of consoles and games on offer, as well as information on how much they can expect to pay.
+North London Multiplayer Meetup will be useful for would-be gamers to see when and where they can attend the gaming meet-ups, the rules of the club, they types of consoles and games on offer, as well as information on how much they can expect to pay.
 
 A live version of the project can be found here: https://sjayawardena.github.io/northlondon-multiplayer-meetup/
 
@@ -17,7 +17,7 @@ A live version of the project can be found here: https://sjayawardena.github.io/
 The website is intended for:
 
 - People who live in north London who want to play computer games socially - in person rather than over the internet.
-- Older gamers who may still want to play games they remember, and are not interest in or confident to play over the internet.
+- Older gamers who may still want to play games they remember, and are not interested in or confident to play over the internet.
 - Younger gamers who want to try retro computer games.
 
 ### User Stories
@@ -26,7 +26,7 @@ As a new user I want to:
 - Find out about where and when the meetup takes place.
 - Sign up to attend the meetup.
 - Find details of the meetup's social media channels.
-- Read up on the rules so I know what to expect.
+- Read up on the rules so I know what to expect, and find out the price. of admission.
 
 As an existing user I want to:
 - Check back to the site for any updates to the time and place of the meetup.
@@ -37,11 +37,11 @@ As an existing user I want to:
 
 This is my first project of the course, so the design has been kept simple. 
 
-I roughly followed the sequence of steps that were laid out in the Love Running walkthrough project of the course. 
+I roughly followed the sequence of steps that were laid out in the Love Running walkthrough. 
 
 The main feature that was borrowed and adapted from the Love Running project is the collapsable menu bar that appears on the mobile version of the site.
 
-The site has 4 separate pages that can be navigated between using said menu bar - collapsable on mobile and static across the top of the header on tablet upwards.
+The site has four separate pages that can be navigated between using said menu bar - collapsable on mobile and static across the top of the header on tablet upwards.
 
 ### Colour Scheme
 
@@ -49,9 +49,9 @@ A color scheme was picked early on using the [Color Space](https://mycolor.space
 
 ![Screenshot of color scheme](assets/images/color-palette.png)
 
-Initially I was going to use the grey (#C2C2C2) for the background of the site but decided that made it look dated, so I used all these colours in combination for all the site's other elements.
+Initially I was going to use the grey (#C2C2C2) for the background of the site but decided that made it look dated, so I used all these colours in combination for all the site's other elements, and kept the background white.
 
-I picked these colours because them to result in a clean, welcoming feel to the site. 
+I picked these colours because I wanted a clean, welcoming feel to the site. 
 
 The photos chosen for each page were deemed to fit well within this colour scheme.
 
@@ -63,7 +63,7 @@ The two Google Fonts used for the site are Black Ops One, and Roboto Slab.
 
 Black Ops One is used on menus, banners and buttons to convey a retro computer game feel.
 
-Roboto Slab is used for all other general text, with a slightly increased letter spacing to default, because it has an informal look to it.
+Roboto Slab is used for all other general text, with a slightly increased letter spacing than default, because it has an informal look to it.
 
 ![Screenshot of Black Ops One font](assets/images/font-black-ops-one.png) ![Screenshot of Roboto Slab font](assets/images/font-roboto-slab.png)
 
@@ -72,7 +72,7 @@ Roboto Slab is used for all other general text, with a slightly increased letter
 
 Wireframes were used to work out the basic layout of each page. The wireframes were done in the style of how it will look on a desktop computer/laptop screen, but I planned to lay it out differently for tablet/mobile.
 
-In the end I changed the layout on desktop from how it was set out in the below wireframes because the layout generally scaled up OK from mobile/tablet, but just needed columns adding for text on the 'Home' and 'Where and When pages', or the text/form fields narrowed and centered on the 'Rules' and 'Sign Up' pages.
+In the end I changed the layout on desktop from how it was set out in the below wireframes because the layout generally scaled up OK from mobile/tablet, but just needed columns adding for text on the 'Home' and 'Where and When pages', or the rules list/form features narrowed and centered on the 'Rules' and 'Sign Up' pages.
 
 ![Screenshot of wireframe for home/landing page](assets/images/project1wire-frames/home.png)
 ![Screenshot of wireframe for Where and When page](assets/images/project1wire-frames/where-and-when.png)
@@ -87,7 +87,7 @@ Screenshots in this section are from the mobile version of the site unless state
 
 #### Header
 
-- The header section encapsulates the site's main H1 heading reading 'North London Multiplayer Meet-up' that links back to the landing/home page if pressed, as well as the nav bar that collapses out from a burger icon on mobile or is fully visible on tablet-size screen and upwards.
+- The header section encapsulates the site's main H1 heading reading 'North London Multiplayer Meetup' that links back to the landing/home page if pressed, as well as the nav bar that collapses out from a burger icon on mobile or is static on tablet-size screen and upwards.
 - Header will be the same on all pages of the site, with the nav bar making clear which section the user is viewing.
 - It is shown here on mobile with the dropdown menu collapsed out.
 

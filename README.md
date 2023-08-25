@@ -6,7 +6,7 @@ Welcome! North London Multiplayer Meetup is a site that gives gamers of all ages
 
 The site is targeted towards would-be in-person gamers who want to socialise and make friends through their interest. It will make clear the meetup is for everyone.
 
-North London Multiplayer Meetup will be useful for would-be gamers to see when and where they can attend the gaming meet-ups, the rules of the club, they types of consoles and games on offer, as well as information on how much they can expect to pay.
+North London Multiplayer Meetup will be useful for would-be gamers to see when and where they can attend the gaming meetups, the rules of the club, the types of consoles and games on offer, as well as information on how much they can expect to pay.
 
 A live version of the project can be found here: https://sjayawardena.github.io/northlondon-multiplayer-meetup/
 
@@ -30,7 +30,7 @@ As a new user I want to:
 
 As an existing user I want to:
 - Check back to the site for any updates to the time and place of the meetup.
-- Find contact details for any further question.
+- Find contact details for any further question. 
 - Find key info to forward on to others who may be interested.
 
 ## Design
@@ -39,13 +39,13 @@ This is my first project of the course, so the design has been kept simple.
 
 I roughly followed the sequence of steps that were laid out in the Love Running walkthrough. 
 
-The main feature that was borrowed and adapted from the Love Running project is the collapsable menu bar that appears on the mobile version of the site.
+The main feature that was borrowed and adapted from the Love Running project is the collapsible menu bar that appears on the mobile version of the site.
 
-The site has four separate pages that can be navigated between using said menu bar - collapsable on mobile and static across the top of the header on tablet upwards.
+The site has four separate pages that can be navigated between using said menu bar - collapsible on mobile and static across the top of the header on tablet upwards.
 
 ### Colour Scheme
 
-A color scheme was picked early on using the [Color Space](https://mycolor.space/) website.
+A colour scheme was picked early on using the [Color Space](https://mycolor.space/) website.
 
 ![Screenshot of color scheme](assets/images/color-palette.png)
 
@@ -104,7 +104,7 @@ Screenshots in this section are from the mobile version of the site unless state
 
 #### Home/Landing Page
 
-- The home/landing page features the site's main hero image, along with a block of succint text to convey what the weekly meet-up is for, and to make it sound appealing.
+- The home/landing page features the site's main hero image, along with a block of text to convey what the weekly meet-up is for, and to make it sound appealing.
 
 ![Home page](assets/images/features-screenshots/project-1-home-page-feature.png)
 
@@ -122,19 +122,20 @@ Screenshots in this section are from the mobile version of the site unless state
 
 #### Sign Up Page
 
-- In this page, users can input name, date of birth, and email address in order to sign up and be able to attend the meetups.
+- In this page, users can input name, date of birth, and email address in order to sign up and be able to attend.
+
 ![Sign-up page](assets/images/features-screenshots/project-1-signup-feature.png)
 
 #### Footer
 
-- The footer will have links, via icons, to social media - Facebook, Twitter, Instagram, YouTube. It will appear the same on all pages of the site.
+- The footer has links, via icons, to social media - Facebook, Twitter, Instagram, YouTube. It will appear the same on all pages of the site.
 - It is shown here with the end of the block of text above it included.
 
 ![Footer with end of text above it](assets/images/features-screenshots/project-1-footer-feature.png)
 
 ### Features Left To Implement
 
-- I would like the site to have a Multiplayer Meet-up finder feature on the Where and When page. This would allow users to view an interactive map and enter their location to see options near them. This would rely on the movement growing and being available in other areas. The site's main title/branding would of course have to change then, as currently it just is aimed at 'North London'.
+- I would like the site to have a Multiplayer Meetup finder feature on the Where and When page. This would allow users to view an interactive map and enter their location to see options near them. This would rely on the movement growing and being available in other areas. The site's main title/branding would of course have to change then, as currently it just is aimed at 'North London'.
 
 ## Deployment
 
@@ -142,9 +143,9 @@ The site was set up by creating a new repository on GitHub, using [this template
 
 The development environment used was GitPod. This was opened initially via the green 'GitPod' button that appeared on the repo's listing on GitHub. 
 
-The initial 'git add', 'git commit' and 'git push' were made on 13 August 2023. There have been a further 60 commits since then.
+The initial 'git add', 'git commit' and 'git push' were made on 13 August 2023. There have been over 60 further commits since then.
 
-Then regular commits and pushes were sent from GitPod back to the repo on GitHub.
+The regular commits and pushes were sent from GitPod back to the repo on GitHub.
 
 To deploy the live site from the GitHub repository, these steps as outlined on Code Institute's sample README file for the Love Running project were followed:
 - In the GitHub repository, navigate to the Settings tab 
@@ -161,7 +162,7 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 - [Google Fonts](https://fonts.google.com/) - both fonts used in this project were chosen via Google Fonts and linked to at the top of the 'style.css' file.
 - [Font Awesome](https://fontawesome.com/) - a kit from the Font Awesome website was used for the social media icons in the footer.
 - [icons8 website](https://icons8.com/) - the favicons were downloaded from here.
-- [Color Space website](mycolor.space) - used to select colour scheme.
+- [Color Space website](https://mycolor.space) - used to select colour scheme.
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used to inspect the website and its performance at every step of development.
 - [Google Maps](https://www.google.com/maps) - used to show the exact location for the meetup - it is embedded in the site via an iframe.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - used to assess the overall quality of the site.
@@ -171,22 +172,22 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 
 ## Testing
 
-The website was tested on the Chrome, Safari and Firefox browsers. On each browser, it was inspected on mobile view (including iPhone SE and Galaxy Fold), tablet view (including iPad, iPad Mini and iPad Air), and desktop view.
+The website was tested on the Chrome, Safari and Firefox browsers. On each browser, it was inspected in mobile view (including iPhone SE and Galaxy Fold), tablet view (including iPad, iPad Mini and iPad Air), and desktop view.
 
 On each browser, in all display sizes/modes, all of the following were tested and confirmed as working:
 - The logo in the header on all pages links back to the main page.
 - All of the links to the site's pages in the nav bar menu work, across all pages. 
 - The iframe map in Where and When section can be moved around/zoomed in on. Clicking on 'directions' opens out to a new browser tab showing the map in 'directions' mode on Google Maps.
 - The rules list on the Rules page displays and scrolls properly - vertically as desired.
-- The form on the Sign Up page submits properly, and takes the users to [Code Institute's 'Returned form data' page](https://formdump.codeinstitute.net/). All fields must also be correctly filled out for the form to submit.
+- The form on the Sign Up page submits properly, and takes the users to Code Institute's 'Returned form data' page. All fields must also be correctly filled out for the form to submit.
 - The social media links in the footer on all pages all work and open in a new tab.
 
 Problems encountered in this phase included: 
-- The main h1 heading overflowing it's flexbox container, which was fixed by setting the min-width property to 0, and aligning the header individually to centre.
+- The main h1 heading overflowing its flexbox container, which was fixed by setting the min-width property to 0, and aligning the header individually to centre.
 - The Submit (Let's Game!) button of the sign-up form moving up and appearing over the form itself in horizontal mobile and tablet views. This was happening because I had set the maximum page height to 100vh, with no 'overflow' property and 'scroll' value in the CSS. I fixed it by removing the maximum page height rule completely.
 - The title banners on each page were also resizing in an unexpected way and pushing the content above them up when the website was resized in 'responsive' view mode in browser inspectors. This was again fixed by removing the maximum page height CSS rule.
 - When viewed in Firefox, the Rules page's scrollable list of rules was only able to scroll sideways to reveal more text, whereas it was intended to scroll vertically (and did on both the other browsers, in every type of view). This was fixed by adding a flex display to the rules list in the CSS file, and setting the flex-direction to vertical.
-- The 'mail to' email link/anchor tag in the Where and When section was not successfully opening my email client on my last round of testing. So I removed the anchor tag so it is just displayed as bold text, which can be copied/pasted.
+- The 'mailto' email link/anchor tag in the Where and When section was not successfully opening my email client on my last round of testing. So I removed the anchor tag so it is just displayed as bold text, which can be copied/pasted.
 
 ### Validator Testing
 

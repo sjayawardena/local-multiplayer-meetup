@@ -177,7 +177,7 @@ The website was tested on the Chrome, Safari and Firefox browsers. On each brows
 On each browser, in all display sizes/modes, all of the following were tested and confirmed as working:
 - The logo in the header on all pages links back to the main page.
 - All of the links to the site's pages in the nav bar menu work, across all pages. 
-- The iframe map in Where and When section can be moved around/zoomed in on. Clicking on 'directions' opens out to a new browser tab showing the map in 'directions' mode on Google Maps.
+- The iframe map in Where and When section can be moved around/zoomed in on. Clicking on 'directions' or 'larger map' opens out to a new browser tab showing the map in 'directions' mode on Google Maps.
 - The rules list on the Rules page displays and scrolls properly - vertically as desired.
 - The form on the Sign Up page submits properly, and takes the users to Code Institute's 'Returned form data' page. All fields must also be correctly filled out for the form to submit.
 - The social media links in the footer on all pages all work and open in a new tab.

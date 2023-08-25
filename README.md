@@ -148,8 +148,8 @@ Then regular commits and pushes were sent from GitPod back to the repo on GitHub
 
 To deploy the live site from the GitHub repository, these steps as outlined on Code Institute's sample README file for the Love Running project were followed:
 - In the GitHub repository, navigate to the Settings tab 
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 ## Technologies Used
 
@@ -173,11 +173,20 @@ To deploy the live site from the GitHub repository, these steps as outlined on C
 
 The website was tested on the Chrome, Safari and Firefox browsers. On each browser, it was inspected on mobile view (including iPhone SE and Galaxy Fold), tablet view (including iPad, iPad Mini and iPad Air), and desktop view.
 
+On each browser, in all display sizes/modes, all of the following were tested and confirmed as working:
+- The logo in the header on all pages links back to the main page.
+- All of the links to the site's pages in the nav bar menu work, across all pages. 
+- The iframe map in Where and When section can be moved around/zoomed in on. Clicking on 'directions' opens out to a new browser tab showing the map in 'directions' mode on Google Maps.
+- The rules list on the Rules page displays and scrolls properly - vertically as desired.
+- The form on the Sign Up page submits properly, and takes the users to [Code Institute's 'Returned form data' page](https://formdump.codeinstitute.net/). All fields must also be correctly filled out for the form to submit.
+- The social media links in the footer on all pages all work and open in a new tab.
+
 Problems encountered in this phase included: 
 - The main h1 heading overflowing it's flexbox container, which was fixed by setting the min-width property to 0, and aligning the header individually to centre.
 - The Submit (Let's Game!) button of the sign-up form moving up and appearing over the form itself in horizontal mobile and tablet views. This was happening because I had set the maximum page height to 100vh, with no 'overflow' property and 'scroll' value in the CSS. I fixed it by removing the maximum page height rule completely.
 - The title banners on each page were also resizing in an unexpected way and pushing the content above them up when the website was resized in 'responsive' view mode in browser inspectors. This was again fixed by removing the maximum page height CSS rule.
 - When viewed in Firefox, the Rules page's scrollable list of rules was only able to scroll sideways to reveal more text, whereas it was intended to scroll vertically (and did on both the other browsers, in every type of view). This was fixed by adding a flex display to the rules list in the CSS file, and setting the flex-direction to vertical.
+- The 'mail to' email link/anchor tag in the Where and When section was not successfully opening my email client on my last round of testing. So I removed the anchor tag so it is just displayed as bold text, which can be copied/pasted.
 
 ### Validator Testing
 
